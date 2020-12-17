@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Lora', serif; */
+    box-sizing: border-box;
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background: url(/images/hogwarts.jpg) center, no-repeat;
+    background-size: cover;
+}
+.section {
+    position: relative;
+    height: 100vh;
+    background: url(/images/harry.jpg) center, no-repeat;
+    background-size: cover;
+}
+.section-header {
+    display: flex;
+    justify-content: center;
+    /* border: 5px solid blueviolet;     */
+}
+.denumire {
+    font-size: 60px;
+    margin-top: 25px;
+    color: white;
+    font-weight: 500;
+}
+.houses {
+    padding: 30px;
+    margin-bottom: 30px;
+    /* border: 5px solid blueviolet; */
+}
+.section-header {
+    font-family: 'Lora', serif;
+    text-align: center;
+    padding: 15px;
+}
+.houses{
+    display: flex;
+    justify-content: space-evenly;
+}
+image {
+    margin-right: 20px;
+}
+.caption {
+    margin-top: 20px;
+    text-align: center;
+}
+.imgtext{
+    float: left;
+    margin-right: 7px;
+}
+.text {
+    text-align: center;
+}
+/* h5 {
+    text-align: center;
+} */
+.modal-header, .modal-body {
+    background: url(/images/house/paper.jpg) center, no-repeat;
+    background-size: cover;
+}
+.modal-footer {
+    background: url(/images/house/paper.jpg);
+}
